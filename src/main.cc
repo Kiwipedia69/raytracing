@@ -7,7 +7,7 @@
 
 #ifdef _MSC_VER
   #pragma warning(push)
-  #pragma warning(disable: 26495) // champs non initialisés signalés par l'analyste MSVC
+  #pragma warning(disable: 26495) // champs non initialisés signalés par MSVC
 #endif
 
 #include "stb_image_write.h"
@@ -26,7 +26,7 @@
 #include <vector>
 #include <cstdint>
 
-#include "progressbar.h"  // Inclure la classe ProgressBar
+#include "progressbar.h" 
 
 #include "color.h"
 
