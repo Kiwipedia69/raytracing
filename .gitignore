@@ -1,0 +1,4 @@
+obj/main.d
+obj/main.o
+res/output.png
+bin/raytracing
